@@ -16,7 +16,7 @@ class AuthorsTableTest extends TestCase
      *
      * @var \App\Model\Table\AuthorsTable
      */
-    public $Authors;
+    public $AuthorsTable;
 
     /**
      * Fixtures
@@ -36,7 +36,7 @@ class AuthorsTableTest extends TestCase
     {
         parent::setUp();
         $config = TableRegistry::exists('Authors') ? [] : ['className' => 'App\Model\Table\AuthorsTable'];
-        $this->Authors = TableRegistry::get('Authors', $config);
+        $this->AuthorsTable = TableRegistry::get('Authors', $config);
     }
 
     /**
@@ -46,7 +46,7 @@ class AuthorsTableTest extends TestCase
      */
     public function tearDown()
     {
-        unset($this->Authors);
+        unset($this->AuthorsTable);
 
         parent::tearDown();
     }

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6146a9340819f7e4524e560a7675107d",
-    "content-hash": "04c86dbb4f16588a7d14f033705579e6",
+    "hash": "102d57546da63bf8b39460ba313043fc",
+    "content-hash": "27f8deb365516cb08eeca2e7674e43e7",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -255,7 +255,7 @@
         },
         {
             "name": "cakephp/migrations",
-            "version": "1.6.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/migrations.git",
@@ -1304,6 +1304,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "cakephp/migrations": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,
